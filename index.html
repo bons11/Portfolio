@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Portfolio.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<title>My Portfolio</title>
+</head>
+<body>
+	<center>
+	<div class="headerdiv">
+		<h2 class="hero opacityshow"> &lt;br&gt;Jason</h2>
+		<hr>
+	</div>
+	</center>
+		<center>
+			<div class="divone">
+				<div class="divborder opacityshow">
+					<div class="intro opacityshow">
+						<p class="hero">Hello, I'm Jason Barajas.</p>
+					</div>
+					<p class="introtwo popin hero glitch layers opacity paths font movement" data-text="Student Developer">
+						Student Developer
+					</p>
+					<img class= "opacityshow" src="./assets/jasonjpg.jpg">
+						<div class="opacityshow socials">
+							<a href="https://www.facebook.com/bons9484" target="_blank" rel="noreferrer noopener" class="fa fa-facebook hero"></a> 
+							<a href="https://www.instagram.com/_brjason/" target="_blank" rel="noreferrer noopener" class="fa fa-instagram hero"></a> 
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="tabone opacityshowinstant">
+					<button class="tablinks" onclick="openContent(event, 'contentOne')">
+						<div class="divyellow">
+							<h1>
+								<center>
+								i
+								</center>
+							</h1>
+						</div>
+							<p>
+								KNOW MORE
+							</p>
+					</button>
+				</div>
+				<div id="contentOne" class="tabcontentone">
+						<p>
+							<div id="mySidenav" class="sidenav">
+  								<a href="#" id="goback"><p>Back to top</p></a>
+							</div>
+							<nav class="extend">
+								<button class="tablinks simpleopacityshow" onmouseover="openContent(event, 'aboutme')">
+									<a href="#aboutme" class="b1">About me</a>
+								</button>
+								<button class="tablinks simpleopacityshow" onmouseover="openContent(event, 'projects')">
+									<a href="#projects" class="b1">Projects</a>
+								</button>
+								<button class="tablinks simpleopacityshow" onmouseover="openContent(event, 'contact')">
+									<a href="#contact" class="b1">Contact</a>
+								</button>
+							</nav>
+						</p>
+				</div>
+				<div class="portfolio">
+					<div id="aboutme" class="tabcontentoneA">
+							<div class="aboutmecontent simpleopacityshow">
+								<h1>Get to know me more</h1>
+								<div class="info">
+									<img src="./assets/info.png">
+									<p>Hello! My name is Jason Cotora Barajas,<br>
+										I am currently studying in<br>
+										PHINMA University of Pangasinan.<br>
+										I am enrolled in System Development<br>
+										of IT, currently with 3+ years<br>
+										of experience in coding.<br>
+									</p>
+								</div>
+								<div class="experience">
+									<img src="./assets/experience.png">
+									<p>
+										My skillset involves UI/UX design,<br>
+										App development, Game development,<br>
+										and web design. I'v experienced and I'm<br>
+										currently learning programming<br>
+										languages such as C#, Java, Dart,<br>
+										C++, HTML, CSS and JavaScript.<br>
+										My greatest strength is that I<br>
+										challenge myself too hard.<br>
+										I may fail, but even<br>
+										failure is worth trying.
+									</p>
+								</div>
+							</div>
+							<hr>
+					</div>
+					
+					<div id="projects" class="tabcontentoneA">
+						<div class="projectscontent grow">
+							<div class="tabcontentborder">
+								<h1 class="hero">MY PROJECTS</h1>
+								<div class="aljacha popinquicker">
+									<img src="./assets/ajc_logo.png">
+									<br>
+									<p>
+										<h2>
+											AlJaCha
+										</h2>
+										<br>
+											Aljacha is a <br>
+											timetable/to-do app to help you <br>
+											with your daily needs
+									</p>
+								</div>
+								<div class="fitma popinquicker">
+									<img src="./assets/fitma_logo.gif">
+									<br>
+									<p>
+										<h2>
+											Fitma
+										</h2>
+										<br>
+											Fitma is a fitness <br>
+											app to assist its users with <br>
+											their exercises.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="contact" class="tabcontentoneA">
+						<div class="contactcontent">
+							<h1><u>Contact me</u></h1>
+
+							<form class="inputform">
+							
+  								<label for="fname">Name:</label><br>
+  								<input class="inputs" type="text" id="name" name="name" placeholder="Enter your name" required="required"><br>
+  								<label for="email">Enter your email:</label><br>
+  								<input class="inputs" type="email" id="email" name="email" placeholder="Enter your gmail" required="required"><br>
+  								<label for=message>Message</label><br>
+  								<textarea class="inputmessage" name="message" id="message" rows="9" placeholder="Type Something" required="required" aria-required="true"></textarea><br>
+  								<input type="submit" value="Submit" class="inputsubmit">
+							</form>
+							<div class="smallcontact">
+								<p><i class="fa fa-map-marker"></i><u>&nbsp;Bugallon, Pangasinan</u></p>
+								<p><i class="fa fa-phone"></i><u>&nbsp;0921 730 2182</u></p>
+								<p><i class="fa fa-envelope"></i><u>&nbsp;br.jason10@gmail.com</u></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</center>
+			<footer id="bottom">
+        			<p>Copyright &#169; 2023 Jason Cotora Barajas. All Rights Reserved.</p>
+    		</footer>
+		<script type="text/javascript" src="Portfolio.js"></script>
+	</body>
+</html>
